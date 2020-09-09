@@ -10,7 +10,14 @@ public class UserVO {
 	private int roomNumber;
 	private String major;
 	private String phoneNumber;
+	private String userPicture;
 	
+	public String getUserPicture() {
+		return userPicture;
+	}
+	public void setUserPicture(String userPicture) {
+		this.userPicture = userPicture;
+	}
 	public int getUserID() {
 		return userID;
 	}
@@ -78,6 +85,7 @@ public class UserVO {
 				+ "계층: " + userHierarchy
 				+ "호실 번호: " + roomNumber
 				+ "전공: " + major
-				+ "전화번호: " + phoneNumber;
+				+ "전화번호: " + phoneNumber
+				+ "사진 경로: " + userPicture;
 	}
 }
