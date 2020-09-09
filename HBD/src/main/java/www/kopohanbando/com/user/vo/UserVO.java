@@ -69,15 +69,15 @@ public class UserVO {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "[ì‚¬ìš©ì ì •ë³´] "
-				+ "ì•„ì´ë””: " + userID
-				+ "íŒ¨ìŠ¤ì›Œë“œ: " + userPassword
-				+ "ì´ë¦„: " + userName
-				+ "ì´ë©”ì¼: " + userEmail
-				+ "ì„±ë³„: " + gender
-				+ "ê³„ì¸µ: " + userHierarchy
-				+ "í˜¸ì‹¤ ë²ˆí˜¸: " + roomNumber
-				+ "ì „ê³µ: " + major
-				+ "ì „í™”ë²ˆí˜¸: " + phoneNumber;
+		return "[»ç¿ëÀÚ Á¤º¸] "
+				+ "¾ÆÀÌµğ: " + userID
+				+ "ºñ¹Ğ¹øÈ£: " + userPassword
+				+ "ÀÌ¸§:  " + userName
+				+ "ÀÌ¸ŞÀÏ: " + userEmail
+				+ "¼ºº°: " + gender
+				+ "°èÃş: " + userHierarchy
+				+ "È£½Ç ¹øÈ£: " + roomNumber
+				+ "Àü°ø: " + major
+				+ "ÀüÈ­¹øÈ£: " + phoneNumber;
 	}
 }
