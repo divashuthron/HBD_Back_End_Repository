@@ -1,0 +1,5 @@
+package com.kopohanbando.www.user.vo;
+
+public class UserVO {
+
+}
