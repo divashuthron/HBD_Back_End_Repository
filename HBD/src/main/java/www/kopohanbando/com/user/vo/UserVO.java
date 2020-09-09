@@ -71,8 +71,8 @@ public class UserVO {
 		// TODO Auto-generated method stub
 		return "[사용자 정보] "
 				+ "아이디: " + userID
-				+ "비밀번호: " + userPassword
-				+ "이름:  " + userName
+				+ "암호: " + userPassword
+				+ "이름: " + userName
 				+ "이메일: " + userEmail
 				+ "성별: " + gender
 				+ "계층: " + userHierarchy
