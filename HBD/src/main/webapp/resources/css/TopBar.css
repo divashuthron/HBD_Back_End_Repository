@@ -1,0 +1,88 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("resources/fonts/NanumGothic.ttf") format("ttf");
+
+  font-family:"NanumGothicBold";
+  src: url("resources/fonts/NanumGothicBold.ttf") format("ttf");
+}
+
+#top_container {
+  font-family: "NanumGothic";
+  background-color: black;
+  color: rgb(235, 235, 235);
+  min-height: 60px;
+  min-width: 1620px;
+}
+#top_container #wrap_content {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+#top_container #wrap_content #title {
+  text-align: center;
+  line-height: 60px;
+}
+#top_container #wrap_content #title a {
+  font-weight: bold;
+}
+#top_container #wrap_content #date {
+  text-align: center;
+  line-height: 60px;
+}
+#top_container #wrap_content #date a {
+
+}
+#top_container #wrap_content #date #text_getDate {
+
+}
+#top_container #wrap_content #date #text_getDow {
+  font-weight: bold;
+}
+#top_container #wrap_content #date #text_getClock {
+
+}
+#top_container #wrap_content #user_data {
+  text-align: right;
+  line-height: 60px;
+}
+#top_container #wrap_content #user_data img {
+  width: 40px;
+  height: 40px;
+}
+#top_container #wrap_content #user_data a {
+
+}
+#top_container #wrap_content #logout {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+}
+#top_container #wrap_content #logout #btn_logout {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#menubar{
+  background-color: rgb(252, 180, 22);
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  min-width: 1620px;
+
+}
+ #menuItem{
+  text-align: center;
+}
+ a{
+   color:black;
+
+ }
+ li {
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+
+ }
+
+ }

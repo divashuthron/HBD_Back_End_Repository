@@ -1,0 +1,110 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+* {
+    font-family: 'NanumBarunGothic';
+    font-size: 16px;
+    /* 개발 테스트용 테두리 설정 */
+
+}
+input:focus{
+  outline: 0.1px solid black;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#complain_container #wrapper_top {
+    height: 300px;
+    background: url(../images/MyPenalty.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#complain_container #wrapper_top h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_top {
+    font-weight: bold;
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+    border-color: rgb(200, 200, 200);
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_top #complain_area #complan_date{
+    margin-left: 70%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_middle #complain_area {
+    margin-top: 1%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_content #complain_area {
+    margin-top: 2%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_content #complain_area #complain_textarea{
+    width: 100%;
+}
+
+
+#complain_container #wrapper_bottom #complain_form #complain_button {
+    margin-top: 2%;
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(25, 25, 25);
+  background-color: rgb(252, 180, 22);
+  border: 0px;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_revise{
+  width: 80px;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_delete{
+  width: 80px;
+  margin-right:75%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_write:hover{
+  font-size: 19px;
+  transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_write:not(:hover){
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_revise:hover{
+  font-size: 19px;
+  transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_revise:not(:hover){
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_delete:hover{
+  font-size: 19px;
+  transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_delete:not(:hover){
+  font-size: 16px;
+  transition: all 0.2s;
+}

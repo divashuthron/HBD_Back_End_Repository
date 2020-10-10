@@ -1,7 +1,7 @@
 package www.kopohanbando.com.user.vo;
 
 public class UserVO {
-	private int userID;
+	private String userID;
 	private String userPassword;
 	private String userName;
 	private String userEmail;
@@ -11,10 +11,10 @@ public class UserVO {
 	private String major;
 	private String phoneNumber;
 	
-	public int getUserID() {
+	public String getUserID() {
 		return userID;
 	}
-	public void setUserID(int userID) {
+	public void setUserID(String userID) {
 		this.userID = userID;
 	}
 	public String getUserPassword() {
@@ -69,15 +69,15 @@ public class UserVO {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "[사용자 정보] "
-				+ "아이디: " + userID
-				+ "패스워드: " + userPassword
-				+ "이름: " + userName
-				+ "이메일: " + userEmail
-				+ "성별: " + gender
-				+ "계층: " + userHierarchy
-				+ "호실 번호: " + roomNumber
-				+ "전공: " + major
-				+ "전화번호: " + phoneNumber;
+		return "[사용자] "
+				+ "아이디 : " + userID
+				+ "비밀번호 :" + userPassword
+				+ "이름 : " + userName
+				+ "이메일 : " + userEmail
+				+ "성별 : " + gender
+				+ "구분 : " + userHierarchy
+				+ "호실 : " + roomNumber
+				+ "전공 : " + major
+				+ "핸드폰 번호 : " + phoneNumber;
 	}
 }

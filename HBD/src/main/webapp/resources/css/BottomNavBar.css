@@ -1,0 +1,56 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("NanumGothic.ttf") format("ttf");
+
+  font-family:"NanumGothicBold";
+  src: url("NanumGothicBold.ttf") format("ttf");
+}
+
+body {
+  font-family:"NanumGothic";
+}
+
+body #BottomNavContainer {
+  color: white;
+  background-color: black;
+  height: 120px;
+  min-width: 1620px;
+}
+
+body #BottomNavContainer #Bottom_Wrapper {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  padding-top: 0.75%;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Logo {
+  margin: auto;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Logo a {
+  text-decoration: none;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Logo img {
+  width: 130px;
+  height: 40px;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Address {
+  margin: auto;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Info {
+  margin: auto;
+}
+
+body #BottomNavContainer #Bottom_Wrapper .Bottom_Info a {
+  text-decoration: none;
+  color: white;
+}
+
+@media(min-width: 1920px) {
+  body #Wrapper #Logout .LogoutButton {
+    margin-left: 28%;
+  }
+}

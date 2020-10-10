@@ -1,0 +1,92 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("resources/fonts/NanumGothic.ttf") format("ttf");
+
+  font-family:"NanumGothicBold";
+  src: url("resources/fonts/NanumGothicBold.ttf") format("ttf");
+}
+
+body {
+    background: url(../images/idfinder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pwfinder_container * {
+    font-family: "NanumGothic"
+}
+
+#pwfinder_container #wrap_content {
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    color: rgb(225, 225, 225);
+    background-color: rgb(25, 25, 25);
+    width: 720px;
+    height: 420px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#pwfinder_container #wrap_content #main {
+    min-width: 720px;
+    display: grid;
+    grid-template-rows: 120px 200px 20px 60px;
+}
+
+#pwfinder_container #wrap_content #main #main_title {
+    min-width: 720px;
+    padding-left: 50px;
+    padding-top: 45px;
+    border-bottom: 2px solid gray;
+    font-size: 14px;
+}
+
+#pwfinder_container #wrap_content #main #main_title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "NanumGothicBold";
+}
+
+#pwfinder_container #wrap_content #main_content {
+    font-size: 12px;
+    margin: 20px 50px 50px 50px;
+}
+
+#pwfinder_container #wrap_content #main_content a {
+       font-family: "NanumGothicBold";
+}
+
+#pwfinder_container #wrap_content #main_warning {
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+#pwfinder_container #wrap_content #main_warning a {
+    color: rgb(252, 180, 22); 
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+#pwfinder_container #wrap_content #main_warning a:hover {
+    color: rgb(125, 125, 125);
+    transition: all 0.5s;
+}
+
+#pwfinder_container #wrap_content #main #btn_Result {
+    background-color: rgb(25, 25, 25);
+    padding-left: 80%;
+    padding-top: 10px;
+}
+
+#pwfinder_container #wrap_content #main #btn_login {
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+}

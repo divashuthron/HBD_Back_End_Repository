@@ -1,0 +1,99 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+* {
+    font-family: 'NanumBarunGothic';
+    font-size: 16px;
+    /* 개발 테스트용 테두리 설정 */
+    /*border: 1px solid pink;*/
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#dining_container #wrapper_top {
+    height: 300px;
+    margin: 0px;
+    background: url(../images/MyPenalty.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#dining_container #wrapper_top h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+
+#wrapper_pictures {
+    width: 100%;
+    height: 1200px;
+}
+
+#wrapper_pictures {
+    border: 1px solid red;
+}
+
+#wrapper_pictures .top_left, #wrapper_pictures .bottom_left {
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 50%;
+    margin-left: 10%;
+}
+
+#wrapper_pictures .top_right, #wrapper_pictures .bottom_right {
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 50%;
+    margin-right: 10%:
+}
+
+#wrapper_pictures * img {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper_other {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+
+#wrapper_other #other_title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0px;
+}
+
+#wrapper_other #wrapper_other_content {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+}
+
+#wrapper_other #wrapper_other_content .slide_button button {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#wrapper_other #wrapper_other_content #other_content_left, #wrapper_other #wrapper_other_content #other_content_center, #wrapper_other #wrapper_other_content #other_content_right {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+#wrapper_other #wrapper_other_content #other_content_left img, #wrapper_other #wrapper_other_content #other_content_center img, #wrapper_other #wrapper_other_content #other_content_right img {
+    box-shadow: 5px 5px 5px 5px gray;
+}

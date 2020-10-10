@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="HBD"/>
+<aop-project name="SpringProject5_AOP_step1">
+<aspect-definition advice-class-name="com.springbook.biz.common.LogAdvice" advice-method-name="printLog" advice-type="AFTER" aspect-end-line-number="24" aspect-name="log" aspect-start-line-number="24" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.springbook.biz..*Impl.get*(..))" proxy-target-class="false">
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:SpringProject5_AOP_step1|3:src/main/resources/applicationContext.xml|7:beans:9|8:boardService:9" bean-file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" source="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.common{LogAdvice.java[LogAdvice~printLog" source-start-line="5" target="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.board.impl{BoardServiceImpl.java[BoardServiceImpl~getBoardList~QBoardVO;" target-start-line="40"/>
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:SpringProject5_AOP_step1|3:src/main/resources/applicationContext.xml|7:beans:9|8:boardService:9" bean-file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" source="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.common{LogAdvice.java[LogAdvice~printLog" source-start-line="5" target="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.board.impl{BoardServiceImpl.java[BoardServiceImpl~getBoard~QBoardVO;" target-start-line="35"/>
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:SpringProject5_AOP_step1|3:src/main/resources/applicationContext.xml|7:beans:9|8:userService:9" bean-file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringProject5_AOP_step1/src/main/resources/applicationContext.xml" source="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.common{LogAdvice.java[LogAdvice~printLog" source-start-line="5" target="=SpringProject5_AOP_step1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springbook.biz.user.impl{UserServiceImpl.java[UserServiceImpl~getUser~QUserVO;" target-start-line="21"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringProject4_BizStep4_jdbc"/>
+<aop-project name="SpringProject4_BizStep1"/>
+<aop-project name="SpringProject4_BizStep2"/>
+<aop-project name="SpringProject4_BizStep3"/>
+<aop-project name="SpringProject2"/>
+<aop-project name="SpringProject3"/>
 </aop-reference-model>

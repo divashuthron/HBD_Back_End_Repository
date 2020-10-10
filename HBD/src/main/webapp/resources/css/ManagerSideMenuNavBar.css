@@ -1,0 +1,105 @@
+@font-face {
+	font-family:"NanumGothic";
+	src: url("NanumGothic.ttf") format("ttf");
+}
+
+* {
+	font-family: "NanumGothic";
+}
+
+body {
+	margin: 0px;
+  	font-size: 14px;
+}
+
+body #slide-out a {
+	text-decoration: none;
+	color: rgb(25, 25, 25);
+}
+
+body dl dt {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+body dl dd {
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+body #slide-out {
+	background-color: rgb(252, 180, 22);
+}
+
+body #slide-out div {
+	margin-top: 20px;
+    margin-left: 40px;
+}
+
+body #slide-out .SlideBarTop {
+	margin: 30px 20px;
+}
+
+body #slide-out .SlideBarTop img {
+	width: 100%;
+    height: 100%;
+}
+
+body #slide-out .SlideBarTop .SlideBarTitle {
+	color: rgb(25, 25, 25);
+	font-size: 36px;
+	font-weight: bold;
+}
+
+body #slide-out .Order {
+
+}
+
+body #slide-out .Suggestion {
+
+}
+
+body #slide-out .Penalty {
+
+}
+
+body #slide-out .SideOut {
+
+}
+
+body #slide-out .JoinRes {
+
+}
+
+body #slide-out .Facility {
+
+}
+
+body #slide-out .Suburban {
+
+}
+
+body #slide-out .Security {
+
+}
+
+body #slide-out .Notice {
+
+}
+
+body #slide-out .UserData {
+	margin-bottom: 20px;
+}
+
+body #NavTrigger {
+	position: absolute;
+	top: 50%;
+	width: 24px;
+	height: 70px;
+	background-color: rgb(64, 64, 64);
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}

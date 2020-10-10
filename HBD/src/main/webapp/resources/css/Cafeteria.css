@@ -1,0 +1,131 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+*  {
+    font-family: 'NanumBarunGothic';
+    font-size: 16px;
+
+    /* 개발 테스트용 테두리 설정 */
+
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#objection_container #wrapper_top {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#objection_container #wrapper_top h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#objection_container #wrapper_bottom {
+    text-align: center;
+}
+
+#objection_container #wrapper_bottom #library_img{
+    text-align: center;
+    margin-top: 15%;
+}
+#objection_container #wrapper_bottom #explain{
+    margin-top: 4%;
+}
+#objection_container #wrapper_bottom_quali {
+    text-align: center;
+    background-color: rgb(252,180,22);
+    margin-top: 10%
+}
+#objection_container #wrapper_bottom_quali #explain h1{
+    background-color: rgb(252,180,22);
+    padding-top: 40px;
+}
+#objection_container #wrapper_bottom_quali #iconimg{
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_quali #explain_quali{
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_quali #explain_quali p{
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_quali #explain_quali{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#objection_container #wrapper_bottom_quali #explain h1 {
+    font-size: 40px;
+}
+#objection_container #wrapper_bottom_quali  #iconimg {
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+#objection_container #wrapper_bottom_notice {
+    margin-top: 8%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#objection_container #wrapper_bottom_notice #library_notice{
+    padding-top: 50px;
+    margin-left: 6%;
+}
+#objection_container #wrapper_bottom_notice #library_notice #library_notice_title h1{
+    margin-left: 5%;
+}
+#objection_container #wrapper_bottom_notice #library_notice #library_notice_title ul{
+    margin-top: 13%;
+}
+#objection_container #wrapper_bottom_notice #library_notice #library_notice_title li{
+    padding-bottom: 2%;
+}
+#objection_container #wrapper_bottom_notice #library_notice #library_notice_title #iconimg{
+    font-size: 35px;
+    margin-right: 4%;
+}
+#objection_container #wrapper_bottom_notice #library_notice #library_notice_explain{
+    padding-right: 50px;
+    padding-top: 30px;
+}
+#objection_container #wrapper_bottom_things {
+    margin-top: 5%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_things #library_things{
+    padding-top: 50px;
+    margin-right: 10%;
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_things #library_things #iconimg{
+    font-size: 30px;
+    margin-right: 6%;
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_things #library_things h1{
+    margin-left: 8%;
+    background-color: rgb(252,180,22);
+}
+#objection_container #wrapper_bottom_things #library_things li{
+    background-color: rgb(252,180,22);
+    padding-bottom: 2%;
+}
+#objection_container #wrapper_bottom_things #library_things ul{
+    margin-top: 13%;
+    background-color: rgb(252,180,22);
+}

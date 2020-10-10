@@ -1,0 +1,162 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("resources/fonts/NanumGothic.ttf") format("ttf");
+
+  font-family:"NanumGothicBold";
+  src: url("resources/fonts/NanumGothicBold.ttf") format("ttf");
+}
+
+body {
+    background: url(../images/idfinder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#idfinder_container * {
+    font-family: "NanumGothic"
+}
+
+#idfinder_container #wrap_content {
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    width: 720px;
+    height: 420px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#idfinder_container #wrap_content #tap {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#idfinder_container #wrap_content #tap #left {
+    height: 60px;
+    min-width: 360px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 4%;
+    border-top-left-radius: 10px;
+}
+
+#idfinder_container #wrap_content #tap #left:hover {
+    opacity: 0.7;
+    background-color: rgb(35, 35, 35);
+    transition: all 0.5s;
+}
+
+#idfinder_container #wrap_content #tap #left a {
+    text-decoration: none;
+}
+
+#idfinder_container #wrap_content #tap #left img {
+    background-color: rgb(252, 180, 22);
+    background-size: 50px;
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+    margin-right: 2%;
+    margin-bottom: 6px;
+}
+
+#idfinder_container #wrap_content #tap #right {
+    background-color: rgb(252, 180 ,22);
+    height: 60px;
+    min-width: 360px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 4%;
+}
+
+#idfinder_container #wrap_content #tap #right:hover {
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+#idfinder_container #wrap_content #tap #right a {
+    text-decoration: none;
+}
+
+#idfinder_container #wrap_content #tap #right img {
+    background-color: rgb(25, 25, 25);
+    background-size: 50px;
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+    margin-right: 2%;
+    margin-bottom: 6px;
+}
+
+#idfinder_container #wrap_content #main {
+    min-width: 720px;
+    display: grid;
+    grid-template: 4fr 2fr 2fr 4fr;
+}
+
+#idfinder_container #wrap_content #main #main_title {
+    min-width: 720px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    font-size: 14px;
+    font-family: "NanumGothic"
+}
+
+#idfinder_container #wrap_content #main #main_title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "NanumGothicBold";
+}
+
+#idfinder_container #wrap_content #main #input_name {
+    min-width: 720px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+#idfinder_container #wrap_content #main #input_name label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#idfinder_container #wrap_content #main #input_name input[type='text'] {
+    width: 450px;
+    padding-left: 10px;
+}
+
+#idfinder_container #wrap_content #main #input_email {
+    min-width: 720px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+#idfinder_container #wrap_content #main #input_email label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#idfinder_container #wrap_content #main #input_email input[type='text'] {
+    width: 450px;
+    padding-left: 10px;
+}
+
+#idfinder_container #wrap_content #main #btn_Result {
+    margin-left: 66%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90px;
+    height: 35px;
+}
+
+#idfinder_container #wrap_content #main #btn_Result button {
+    padding: 0px;
+}

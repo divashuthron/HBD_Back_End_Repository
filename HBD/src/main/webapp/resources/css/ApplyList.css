@@ -1,0 +1,152 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+* {
+    font-family: 'NanumBarunGothic';
+    font-size: 16px;
+    /* 개발 테스트용 테두리 설정 */
+
+}
+input:focus{
+  outline: 0.1px dotted black;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#apply_container #wrapper_top {
+    height: 300px;
+    background: url(../images/MyPenalty.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#apply_container #wrapper_top h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+
+.row {
+    font-weight: bold;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid;
+    border-color: rgb(200, 200, 200);
+    opacity: 0.8;
+}
+
+/* 테이블1 */
+#apply_table table,td{
+    border: 1px hidden black;
+    width: 100%;
+
+}
+
+#table_top td{  
+    padding-left: 2%;
+    color: rgb(25,25,25);
+    background-color: rgb(252, 180, 22);
+}
+
+#table_top td button{
+    text-align: right;
+}
+
+#table_bottom{
+    height: 100px;
+    background-color: white;
+}
+
+#table_bottom #revise{
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(25, 25, 25);
+  background-color: rgb(252, 180, 22);
+  border: 0px;
+  border-radius: 5px;
+}
+
+#table_bottom td{
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+#reviseBtn{
+    padding-right: 2%;
+}
+
+#penaltyName {
+    font-weight: normal;
+}
+
+.row {
+    
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumberList{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumber li{
+    margin: 0.2%;
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumber a{
+    color : black;
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumber #pageRight{
+    background-color: rgb(252, 180, 22);
+    border-radius: 10px;
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumber #pageNum{
+    border-radius: 10px;
+}
+
+#apply_container #wrapper_bottom #apply_button #pageNumber #pageLeft{
+    background-color: rgb(252, 180, 22);
+    border-radius: 10px;
+}
+
+.pagination .active {
+  background-color: rgb(252, 180, 22);
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* 외박신청하기 버튼 */
+#apply_container #wrapper_bottom #apply_button {
+    margin-top: 2%;
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+#apply_container #wrapper_bottom #apply_button #apply_write {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(25, 25, 25);
+  background-color: rgb(252, 180, 22);
+  border: 0px;
+}
+
+#apply_container #wrapper_bottom #apply_button #apply_write:hover{
+  font-size: 19px;
+  transition: all 0.2s;
+}
+
+#apply_container #wrapper_bottom #apply_button #apply_write:not(:hover){
+  font-size: 16px;
+  transition: all 0.2s;
+}
